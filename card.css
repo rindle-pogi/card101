@@ -1,0 +1,209 @@
+
+body {
+
+  background-color: black ;
+  }
+
+h1{
+    font-style:oblique;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 250px; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);;
+    background-color: white;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    color: black;
+  }
+
+  
+
+
+  .Button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+  }
+  
+  .Button:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color:#020000
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: red;
+    max-width: 300px; 
+  }
+
+  .card2 {
+    flex: 1;
+    max-width: 250px; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+   
+    background-color: white;
+  }
+  
+  .card2 img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .card2 h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .card2 p {
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: red;
+    max-width: 300px; 
+  }
+  .card1 {
+    flex: 1;
+    max-width: 250px; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    
+ 
+
+  }
+  
+  .card1 img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .card1 h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .card1 p {
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: red;
+    max-width: 300px; 
+  }
+  .card3 {
+    flex: 1;
+    max-width: 250px; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /*background-image: url("card-img/LP-song.png");*/
+    background-color: white;
+  }
+
+  
+  .card3 img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .card3 h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .card3 p {
+    margin: 10px 0;
+    color: #020000;
+  }
+  
+  .card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 4, 129, 0.2); 
+    max-width: 300px; 
+    background-color: red;
+  }
+
+  
+  
+
+  
+  
+
+
+  
+  
